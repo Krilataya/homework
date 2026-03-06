@@ -106,7 +106,7 @@
 	content: "";
 	display: inline-block;
 	position: absolute;
-	top: 8px;
+	top: 7px;
 	left: 94px;
 	width: 22px;
 	height: 9px;
@@ -117,3 +117,4 @@
 .news-link:hover::after {
 	transform: translateX(5px);
 }
+
