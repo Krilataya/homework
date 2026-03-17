@@ -175,4 +175,7 @@ summary:focus-visible {
 	.title-large {
 		font-size: 34px;
 	}
+	.decor::before {
+		display: none;
+	}
 }
