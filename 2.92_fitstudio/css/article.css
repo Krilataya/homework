@@ -61,7 +61,7 @@
 
 .article-play-button {
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	-webkit-transform: translate(-55%, -50%);
 	-ms-transform: translate(-55%, -50%);
