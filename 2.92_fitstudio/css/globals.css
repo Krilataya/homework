@@ -179,4 +179,9 @@ summary:focus-visible {
 	.decor::before {
 		display: none;
 	}
+
+	
+	.hero::before {
+		display: none;
+	}
 }
