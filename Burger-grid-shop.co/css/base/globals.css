@@ -1,0 +1,18 @@
+.page {
+	font-family: var(--font-family);
+	font-weight: 400;
+	color: var(--font-color);
+	/* background-color: var(--secondary-color); */
+}
+
+.page-body {
+	height: 200vh;
+
+	min-width: 375px;
+	background-color: var(--back-color);
+}
+
+.container {
+	width: min(var(--container), 100%);
+	margin: auto;
+}

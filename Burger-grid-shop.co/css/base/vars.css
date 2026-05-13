@@ -1,0 +1,32 @@
+:root {
+	/* font-family */
+	--font-family: "Satoshi", sans-serif;
+
+	/* colors */
+	--secondary-color: #d9d9d9;
+	--main-color: #fff;
+	--font-color: #000;
+	--desc-color: #616060;
+	--accent-color: #f33;
+	--underlay-accent-color: #ffebeb;
+	--score-color: #ffc633;
+	--the-nod-color: #01ab31;
+	--bg-color: #f0f0f0;
+	--shadow-color: -2px 0 15px 0 #181817;
+
+	/* container */
+
+	--container: 1240px;
+
+	/* layers */
+
+	--negative-layer: -1;
+	--layer-1: 1;
+	--layer-2: 2;
+	--layer-3: 3;
+	--layer-4: 4;
+
+	/* animation */
+	--trans-time: 0.2s;
+	--scale: scale(1.05);
+}
