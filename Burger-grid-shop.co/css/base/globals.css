@@ -5,7 +5,7 @@
 	/* background-color: var(--secondary-color); */
 }
 
-.page-body {
+.page__body {
 	height: 200vh;
 
 	min-width: 375px;
