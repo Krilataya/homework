@@ -16,3 +16,9 @@
 	width: min(var(--container), 100%);
 	margin: auto;
 }
+
+.general-wrapper {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 38px 35px 48px minmax(663px, 853px) auto auto auto;
+}
