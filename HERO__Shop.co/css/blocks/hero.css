@@ -1,0 +1,16 @@
+.hero-container {
+	display: flex;
+	align-items: center;
+}
+
+.hero__title {
+	font-family: var(--second-family);
+	font-weight: 900;
+	padding-top: 106px;
+	font-weight: 900;
+	font-size: 57px;
+	line-height: 112%;
+	color: var(--font-color);
+	max-width: 168px;
+	max-height: 577px;
+}
