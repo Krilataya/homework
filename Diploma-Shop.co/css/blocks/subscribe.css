@@ -1,0 +1,133 @@
+.subscribe {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 30px;
+	min-height: 180px;
+	border-radius: 20px;
+	padding-inline: 64px;
+	padding-top: 32px;
+	padding-inline: clamp(24px, 5vw + 32px, 64px);
+	padding-bottom: clamp(28px, 3vw, 36px);
+	background-color: var(--font-color);
+}
+
+.subscribe.container {
+	margin-bottom: 50px;
+}
+
+.title-sub-medium {
+	max-width: 50%;
+	font-size: clamp(30px, calc(40px - 10vw), 40px);
+}
+
+.subscribe__field {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+
+.email-input {
+	border-radius: 62px;
+	padding: 12px 0 14px 52px;
+	width: clamp(311px, 30vw, 349px);
+	height: clamp(42px, 7vh, 48px);
+	outline: none;
+	border: none;
+	font-weight: 400;
+	font-size: 16px;
+	font-family: var(--font-family);
+}
+
+.email-input:focus-visible {
+	outline: 1px solid var(--main-color);
+	outline-offset: 4px;
+	border-radius: 62px;
+}
+
+.post-icon {
+	position: absolute;
+	top: calc(1rem + -3px);
+	left: calc(1.125rem + 2px);
+	display: block;
+	width: 21px;
+	height: 16px;
+}
+
+.post-icon svg {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+}
+
+.subscribe__button {
+	border-radius: 62px;
+	border: 1px solid transparent;
+	padding: 12px 16px;
+	width: clamp(311px, 30vw, 349px);
+	height: clamp(42px, 7vh, 48px);
+	background-color: var(--main-color);
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 16px;
+	color: var(--font-color);
+	-webkit-tap-highlight-color: transparent;
+	touch-action: manipulation;
+	transition:
+		background-color var(--trans-time),
+		color var(--trans-time),
+		border var(--trans-time);
+}
+
+@media (any-hover: hover) {
+	.subscribe__button:hover {
+		background-color: transparent;
+		color: var(--main-color);
+		border: 1px solid var(--main-color);
+	}
+}
+
+.subscribe__button:focus-visible {
+	outline: 1px solid var(--main-color);
+	outline-offset: 4px;
+	border-radius: 62px;
+}
+
+.subscribe__button:active {
+	filter: brightness(0.9);
+	transform: scale(0.98);
+}
+
+@media (width < 992px) {
+	.subscribe {
+		padding-inline: 32px;
+	}
+	.post-icon {
+		transform: scale(0.9);
+	}
+}
+
+@media (710px < width < 768px) {
+	.email-input,
+	.subscribe__button {
+		min-width: 330px;
+	}
+
+	.subscribe {
+		padding-inline: 24px;
+	}
+}
+
+@media (width <= 710px) {
+	.subscribe {
+		flex-direction: column;
+		align-items: center;
+		gap: 32px;
+	}
+
+	.title-sub-medium {
+		max-width: 70%;
+		text-align: center;
+	}
+}

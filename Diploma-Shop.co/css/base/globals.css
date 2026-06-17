@@ -1,0 +1,53 @@
+.page {
+	font-family: var(--font-family), var(--second-family);
+	font-weight: 400;
+	color: var(--description-color);
+	scroll-behavior: smooth;
+	scroll-padding-top: 100px;
+	scrollbar-gutter: stable;
+}
+
+.page__body {
+	min-width: 375px;
+	background-color: var(--back-color);
+}
+
+.page__body--no-scroll {
+	position: fixed;
+	width: 100%;
+	overflow: hidden;
+}
+
+.container {
+	width: min(var(--container-width), 100% - var(--container-padding) * 2);
+	margin: 0 auto;
+}
+
+.title-large {
+	font-family: var(--second-family);
+	font-weight: 900;
+	font-size: 44px;
+	text-align: center;
+	color: var(--font-color);
+}
+
+.title-medium {
+	font-weight: 700;
+	font-size: 20px;
+	color: var(--font-color);
+	font-family: var(--font-family);
+}
+
+.title-sub-medium {
+	font-family: var(--second-family);
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 113%;
+	color: var(--main-color);
+}
+
+.logo:focus {
+	outline: 2px solid var(--font-color);
+	outline-offset: 4px;
+	border-radius: 3px;
+}

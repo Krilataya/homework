@@ -1,0 +1,18 @@
+.big-star {
+	position: absolute;
+	top: 10%;
+	right: 3%;
+	width: clamp(48px, 9vw, 104px);
+	height: auto;
+}
+
+@media (width < 390px) {
+	.big-star {
+		top: 40px;
+		right: 8px;
+
+		width: clamp(40px, 12vw, 48px);
+		max-width: none;
+		height: auto;
+	}
+}
