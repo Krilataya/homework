@@ -15,7 +15,7 @@ export default class HeaderFixed {
 	}
 
 	updateFixedClass() {
-		if (window.scrollY > 0) {
+		if (window.scrollY > 50) {
 			this.header.classList.add(this.headerTypes.HEADER_FIXED);
 		} else {
 			this.header.classList.remove(this.headerTypes.HEADER_FIXED);
