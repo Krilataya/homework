@@ -77,7 +77,7 @@ const deleteTodoById = (todos, todoId) => {
 
 const createTodoElement = (text) => {
 	const li = document.createElement("li");
-	li.className = "todo";
+	li.classList.add("todo");
 
 	li.innerHTML = `<div class="todo-text"></div>
 		<div class="todo-actions">
