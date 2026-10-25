@@ -103,14 +103,7 @@ const handleCreateTodo = (todos, text) => {
 };
 
 handleCreateTodo(todos, "Купить свежего хлеба в пекарне");
+handleCreateTodo(todos, "Купить молока");
+handleCreateTodo(todos, "Купить яиц");
 
-// createTodo(todos, "Купить сухой корм для кота");
-// createTodo(todos, "Сделать поделку на тему осени");
-// createTodo(todos, "Тренировка у телека");
 
-// completeTodoById(todos, 2);
-// updateTodoById(todos, 1, "Мокрый корм кошачку");
-// updateTodoById(todos, 3, "   ");
-// deleteTodoById(todos, 999);
-
-// console.log(todos);
