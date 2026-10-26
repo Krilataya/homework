@@ -48,22 +48,7 @@ const completeTodoById = (todos, todoId) => {
 	return todo;
 };
 
-const updateTodoById = (todos, todoId, newText) => {
-	const todo = todos.find((todo) => todo[todoKeys.id] === todoId);
 
-	if (!todo) {
-		logTodoNotFound(todoId);
-		return null;
-	}
-
-	const trimmedText = newText.trim();
-	if (!trimmedText) {
-		return null;
-	}
-
-	todo[todoKeys.text] = trimmedText;
-	return todo;
-};
 
 const deleteTodoById = (todos, todoId) => {
 	const todoIndex = todos.findIndex((todo) => todo[todoKeys.id] === todoId);
