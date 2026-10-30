@@ -1,0 +1,40 @@
+:root {
+	/* font-family */
+	--font-family: "Satoshi", sans-serif;
+	--second-family: "Integralcf", sans-serif;
+
+	/* colors */
+	--secondary-color: #d9d9d9;
+	--main-color: #fff;
+	--font-color: #000;
+
+	--overlay-color: 0 0 0;
+
+	--description-color: #00000099;
+	--accent-color: #f33;
+	--underlay-accent-color: #ffebeb;
+	--score-color: #ffc633;
+	--the-nod-color: #01ab31;
+	--bg-color: #f0f0f0;
+	--shadow-color: -2px 0 15px 0 #181817;
+	--shadow-header: 0 1px 0 rgb(0 0 0 / 6%), 0 6px 20px rgb(0 0 0 / 4%);
+	--shadow-dropdown: 0 10px 30px rgb(0 0 0 / 8%), 0 1px 3px rgb(0 0 0 / 3%);
+
+	/* container */
+
+	--container-width: 1240px;
+	--container-padding: 15px;
+
+	/* layers */
+
+	--negative-layer: -1;
+	--layer-1: 1;
+	--layer-2: 2;
+	--layer-3: 3;
+	--layer-4: 4;
+
+	/* animation */
+	--trans-time: 0.2s;
+	--trans-medium: 0.3s ease;
+	--trans-smooth: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
